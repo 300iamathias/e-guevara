@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Truck, BadgeCheck, Instagram, Facebook, MessageCircle } from "lucide-react";
+import { Truck, Instagram, Facebook, MessageCircle } from "lucide-react";
 import { CONTACT } from "@/lib/constants";
 
 const socials = [
@@ -60,13 +60,6 @@ export function Hero() {
               aria-hidden
               className="pointer-events-none absolute inset-0 bg-emerald-500/5 mix-blend-overlay"
             />
-          </div>
-          {/* Badge verificado */}
-          <div className="absolute -bottom-1 -right-1 flex h-9 items-center gap-1 rounded-full border border-emerald-500/40 bg-[#0A0F0A] px-2.5 shadow-md">
-            <BadgeCheck className="h-4 w-4 text-emerald-400" />
-            <span className="text-[10px] font-semibold text-emerald-300">
-              Empresa Confiable
-            </span>
           </div>
         </motion.div>
 

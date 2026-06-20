@@ -27,7 +27,7 @@ export function AboutGuevara() {
           >
             <div className="relative h-[180px] w-[180px] overflow-hidden rounded-2xl border border-emerald-500/40 bg-[#111811] shadow-[0_0_40px_-10px_rgba(16,185,129,0.4)] sm:h-[200px] sm:w-[200px]">
               <Image
-                src="/edison-guevara.png"
+                src="/edison-guevara-about.png"
                 alt="Edison Guevara — fundador de Mudanzas Guevara"
                 fill
                 sizes="200px"
